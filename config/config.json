@@ -14,10 +14,16 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "levia",
+    "password": "6Zj5qWfVOjOVpvrS4yhVFRi7Cq70Cogn",
+    "database": "nodejs_app_test_6ktq",
+    "host": "dpg-d0qckq0dl3ps73erk6lg-a",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejecUnauthorized": false
+      }
+    }
   }
 }
