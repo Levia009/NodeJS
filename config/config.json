@@ -22,7 +22,7 @@
     "dialectOptions": {
       "ssl": {
         "require": true,
-        "rejecUnauthorized": false
+        "rejectUnauthorized": false
       }
     }
   }
